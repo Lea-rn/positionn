@@ -1,0 +1,65 @@
+img {
+    width: 99%;
+    display: block;
+    margin: 0px auto;
+    height: 600px;
+    border-radius: 30px;
+
+}
+
+nav {
+    background-color: rgba(128, 128, 128, 0.548);
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    border-radius: 10px 50px 10px 50px ;
+  
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 1s;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 5px;
+    border-radius: 5px 25px 5px 25px;
+}
+
+
+.hot {
+
+    background-color: palevioletred;
+    color: white;
+    font-weight: 800;
+    width: 4.5%;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+  
+    left: 253px;
+    bottom: 40px;
+}
+
+header {
+  position: sticky;
+    top: 40px;
+
+}
+
+section p {
+    margin: 90px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+section p:hover {
+background-color: palevioletred;
+padding: 10px;
+transform: scale(1.1,1.1);
+}
